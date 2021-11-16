@@ -6,15 +6,11 @@
 	<dict>
 		<key>Headers/Dotmetrics.h</key>
 		<data>
-		kfY+A3DupAWgDPGsXbAP74Up7FM=
-		</data>
-		<key>Headers/DotmetricsSession+URLConfiguration.h</key>
-		<data>
-		k9Kt3uq0Q+3CGBqpJnuPWuL4pNA=
+		X+vw56mM8gmQdw8KJluvd+gMtOg=
 		</data>
 		<key>Headers/DotmetricsSession.h</key>
 		<data>
-		ZwLVAZ1KHSYcOiA/vSx1czKssz0=
+		zsI+43EbWvHb5whBWp6cPEOFrdY=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -31,33 +27,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kfY+A3DupAWgDPGsXbAP74Up7FM=
+			X+vw56mM8gmQdw8KJluvd+gMtOg=
 			</data>
 			<key>hash2</key>
 			<data>
-			brw7HzXcK5A61BSq45VLKhiHrTHA9U/z1W9c7EFYk6Q=
-			</data>
-		</dict>
-		<key>Headers/DotmetricsSession+URLConfiguration.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k9Kt3uq0Q+3CGBqpJnuPWuL4pNA=
-			</data>
-			<key>hash2</key>
-			<data>
-			24YeMsqi9pVwaKujNZYxTDNM9PZVq7LNYZh3hMJ2WMQ=
+			3NWUHxfzdOc3VOt3aSlTYGYXZI3FFVJtczpLzU3ifAQ=
 			</data>
 		</dict>
 		<key>Headers/DotmetricsSession.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZwLVAZ1KHSYcOiA/vSx1czKssz0=
+			zsI+43EbWvHb5whBWp6cPEOFrdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			3xM7L4/1hPHulZeF0K/Gr8cUeA6N7+ToV9d9bru30fI=
+			HpAkWIJm44I7EpH7vLm/pD2G5GQVEflUXfY65iIHKQo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

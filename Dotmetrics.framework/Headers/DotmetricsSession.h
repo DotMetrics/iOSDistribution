@@ -119,6 +119,11 @@
 @property (nonatomic, assign) BOOL loggingEnabled;
 
 #pragma mark Public Methods
+// Configures and starts a session from the given URL. Calls completionHandler when done, with error
+- (void)configureAndStartWithConfigurationURL:(NSURL *)url completionHandler:(void (^)(NSError *))completionHandler;
+// Switches to new ApiKey, and starts new session. Calls completionHandler when done, with error
+- (void)switchToNewEndpointWithConfigurationURL:(NSURL *)url completionHandler:(void (^)(NSError *))completionHandler;
+
 /*!
  @method sharedDotmetricsSession
  @abstract Accesses the Session object.  This is a Singleton class which maintains

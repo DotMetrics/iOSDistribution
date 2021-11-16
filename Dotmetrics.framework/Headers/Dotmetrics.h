@@ -17,4 +17,3 @@ FOUNDATION_EXPORT const unsigned char DotmetricsVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <Dotmetrics/PublicHeader.h>
 
 #import <Dotmetrics/DotmetricsSession.h>
-#import <Dotmetrics/DotmetricsSession+URLConfiguration.h>
