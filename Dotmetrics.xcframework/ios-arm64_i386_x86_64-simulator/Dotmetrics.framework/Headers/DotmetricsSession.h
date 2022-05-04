@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#define CLIENT_VERSION              @"1.6.7"      // The version of this library
+#define CLIENT_VERSION              @"1.6.8"      // The version of this library
 
 /*!
  @class DotmetricsSession
@@ -303,6 +303,8 @@ customerValueIncrease:(NSNumber *)customerValueIncrease;
 - (NSString *_Nullable)identifierForVendor;
 
 - (void)applyTCF:(BOOL)value;
+
+- (void)shouldUseIDFA:(BOOL)value;
 
 // Internal logging macros. You should not need to modify this
 #define Dotmetrics_LOGGING_ENABLED [[DotmetricsSession sharedDotmetricsSession] loggingEnabled]
