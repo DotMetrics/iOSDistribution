@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#define CLIENT_VERSION              @"1.6.8"      // The version of this library
+#define CLIENT_VERSION              @"1.6.9"      // The version of this library
 
 /*!
  @class DotmetricsSession
