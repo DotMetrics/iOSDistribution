@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import "DotmetricsMediaSession.h"
 
-#define CLIENT_VERSION              @"1.6.11"      // The version of this library
+#define CLIENT_VERSION              @"1.7.1"      // The version of this library
 
 /*!
  @class DotmetricsSession
@@ -101,6 +102,7 @@
 @property (nonatomic, assign) BOOL cookieFlowDisabled;
 @property (nonatomic, retain) NSString *cookieDomain;
 @property (nonatomic, retain) NSURL *url;
+@property (nonatomic, assign) NSMutableArray* mediaSessions;
 
 + (void)logMessage:(NSString *)message;
 
@@ -303,6 +305,12 @@ customerValueIncrease:(NSNumber *)customerValueIncrease;
 - (NSString *_Nullable)identifierForVendor;
 
 - (void)applyTCF:(BOOL)value;
+
+- (void)saveMediaData:(NSObject *_Nullable)model;
+
+- (void)saveMediaDataAsync:(NSObject *_Nullable)model;
+
+- (DotmetricsMediaSession*_Nonnull)openMediaSession;
 
 - (void)shouldUseIDFA:(BOOL)value;
 
