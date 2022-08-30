@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "DotmetricsMediaSession.h"
 
-#define CLIENT_VERSION              @"1.7.2"      // The version of this library
+#define CLIENT_VERSION              @"1.7.3"      // The version of this library
 
 /*!
  @class DotmetricsSession
@@ -63,20 +63,16 @@
 #pragma mark Member Variables
     dispatch_queue_t _queue;                // Queue of Dotmetrics block objects.
     dispatch_group_t _criticalGroup;        // Group of blocks the must complete before backgrounding.
-	NSString *_sessionUUID;                 // Unique identifier for this session.
 	NSString *_applicationKey;              // Unique identifier for the instrumented application
     NSTimeInterval _lastSessionStartTimestamp;  // The start time of the most recent session.
     long _sessionBackgroundTime;   //Time spend in background in last session
-    NSDate *_sessionResumeTime;                 // Time session was started or resumed.
     NSDate *_sessionCloseTime;              // Time session was closed.
     NSMutableString *_unstagedFlowEvents;        // Comma-delimited list of app screens and events tagged during this
     // session that have NOT been staged for upload.
     NSMutableString *_stagedFlowEvents;        // App screens and events tagged during this session that HAVE been staged
     // for upload.
     NSMutableString *_screens;              // Comma-delimited list of screens tagged during this session.
-    NSTimeInterval _sessionActiveDuration;  // Duration that session open.
 	BOOL _sessionHasBeenOpen;               // Whether or not this session has ever been open.
-    NSTimeInterval previousSessionStartTimeInterval;
 }
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wnullability-completeness"
