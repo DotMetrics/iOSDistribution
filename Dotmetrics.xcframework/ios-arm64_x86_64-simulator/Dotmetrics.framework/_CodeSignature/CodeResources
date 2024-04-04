@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/DotmetricsSession.h</key>
 		<data>
-		s6c+DcF7LfAfs0Fd7hx/XIdkmw4=
+		3Qm6QD99ov/8LbLmzra+FchjV6s=
 		</data>
 		<key>Headers/DotmetricsYTPlayerViewWrapper.h</key>
 		<data>
@@ -42,11 +42,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gbUAUXDkYJZNwO1VpqAdRCLYFSo=
+		IR8eE7ES/vVYdD3C/YsBS/8TKho=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		DNMv4TRCUk5dFRCnRE8kDNIgbvk=
+		Ls2+8ZiFzoPVDzh0Hz5VCxOrZXE=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		ZpTaKuqfr8ChwmQLaddgxOptC4c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -121,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s6c+DcF7LfAfs0Fd7hx/XIdkmw4=
+			3Qm6QD99ov/8LbLmzra+FchjV6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZViEM8QInzKy5mvuLPJ37vlyhMlxy/INjxj8Kcmoq7c=
+			K8dJ5rh//NApa6RvBEp9d7cMM/IQIdMOxuCVBzrK6EU=
 			</data>
 		</dict>
 		<key>Headers/DotmetricsYTPlayerViewWrapper.h</key>
@@ -154,11 +158,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DNMv4TRCUk5dFRCnRE8kDNIgbvk=
+			Ls2+8ZiFzoPVDzh0Hz5VCxOrZXE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p7ds/PkBHdIJHzv67BpVMvFtbAXsZk8V3qCRTRIe+D8=
+			tq3PII4n0eX/Xlt8dlGjkST9/qdmr8owAmHAE5Di8UI=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZpTaKuqfr8ChwmQLaddgxOptC4c=
+			</data>
+			<key>hash2</key>
+			<data>
+			E2DSEcaHe7cekZjqPzK6/r5y6uHBjrs+jNF5LbhvlZk=
 			</data>
 		</dict>
 	</dict>

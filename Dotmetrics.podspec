@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'Dotmetrics'
-    s.version           = '1.7.5'
+    s.version           = '1.7.6'
     s.summary           = 'SDK for collecting app usage data'
     s.homepage          = 'https://www.dotmetrics.net'
 
