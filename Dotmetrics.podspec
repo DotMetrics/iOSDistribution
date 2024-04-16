@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '7.0'
     s.ios.vendored_frameworks = 'Dotmetrics.xcframework'
 
+    s.resource_bundles = {"Dotmetrics" => ["Dotmetrics.xcframework/ios-arm64/Dotmetrics.framework//PrivacyInfo.xcprivacy"]}
+
 end
