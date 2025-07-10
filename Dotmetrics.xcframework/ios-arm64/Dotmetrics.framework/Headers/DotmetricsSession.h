@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "DotmetricsMediaSession.h"
 
-#define CLIENT_VERSION              @"1.7.9"      // The version of this library
+#define CLIENT_VERSION              @"1.7.10"      // The version of this library
 
 /*!
  @class DotmetricsSession

@@ -19,14 +19,23 @@ typedef enum {
 @interface DotmetricsMediaSettings: NSObject
 
 @property (nonatomic, copy) NSString *name;
+@property (nonatomic, copy) NSString *artist;
+@property (nonatomic, copy) NSString *album;
+@property (nonatomic, copy) NSString *author;
+@property (nonatomic, copy) NSString *creator;
+@property (nonatomic, copy) NSString *publisher;
+@property (nonatomic, copy) NSString *contributor;
+@property (nonatomic, copy) NSString *contentDescription;
+@property (nonatomic, copy) NSString *subject;
+@property (nonatomic, copy) NSString *copyrights;
+@property (nonatomic, copy) NSString *language;
+
 @property (nonatomic) long duration;
 @property (nonatomic, copy) NSString *playerName;
 @property (nonatomic, copy) NSString *playerID;
 @property (nonatomic, copy) NSString *category;
 @property (nonatomic, copy) NSString *format;
 @property (nonatomic) MediaType type;
-
-- (instancetype)initWithName:(NSString *)name duration:(long)duration playerName:(NSString *)playerName playerID:(NSString *)playerID category:(NSString *)category format:(NSString *)format type:(MediaType)type;
 
 - (NSString*)mediaTypeToString;
 

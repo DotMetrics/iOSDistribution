@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
                     name: "Dotmetrics",
-                    url: "https://github.com/DotMetrics/iOSDistribution/releases/download/1.7.9/Dotmetrics.xcframework.zip",
-                    checksum: "81c75ee530fa6c026e0e95c1f8f7d5ac94d0ff764302abe234cb8b5e21026b03"
+                    url: "https://github.com/DotMetrics/iOSDistribution/releases/download/1.7.10/Dotmetrics.xcframework.zip",
+                    checksum: "2abaf3bdd5196dbe31c25fa884aa6a0030a702941777e4ca4681e3b96935fd64"
                 )
     ]
 )
